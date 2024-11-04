@@ -11,7 +11,7 @@
     <meta property="og:title" content="ZunkzFur / Daniel Simeon Gauthier&#039;s Actions and Evidence The known Zoophile" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="The Evidence of a known Zoophile hiding away from there actions" />
-    <meta property="og:image" content="https://zunkzfurzoophile.carrd.co/assets/images/card.jpg?v=e3e3f1fa" />
+    <meta property="og:image" content="https://zunkzfurzoophile.carrd.co/assets/images/card.jpg?v=6ae3eed1" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1280" />
     <meta property="og:image:height" content="800" />
@@ -735,6 +735,42 @@
             background-color: #EB00FF;
         }
 
+        #buttons08 {
+            gap: 0.75rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        #buttons08 li a {
+            display: inline-block;
+            width: auto;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            padding: 0 1.25rem;
+            vertical-align: middle;
+            font-family: 'Abel', sans-serif;
+            font-size: 1em;
+            font-weight: 400;
+            border-radius: 0rem;
+            direction: var(--site-language-direction);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        }
+
+        #buttons08 .button {
+            background-color: #000000;
+            color: #FFFFFF;
+            background-image: linear-gradient(45deg, #FFD600 0%, rgba(0, 0, 0, 0.008) 100%);
+            background-position: 0% 0%;
+            background-repeat: repeat;
+            background-size: cover;
+        }
+
+        #buttons08 .n01 {
+            background-color: #EB00FF;
+        }
+
         #buttons01 {
             gap: 0.75rem;
             flex-direction: row;
@@ -1085,6 +1121,13 @@
                 letter-spacing: 0rem;
                 font-size: 1em;
             }
+            #buttons08 {
+                gap: 0.75rem;
+            }
+            #buttons08 li a {
+                letter-spacing: 0rem;
+                font-size: 1em;
+            }
             #buttons01 {
                 gap: 0.75rem;
             }
@@ -1162,6 +1205,14 @@
                 max-width: 32rem;
                 width: 100%;
             }
+            #buttons08 {
+                flex-direction: column;
+                flex-wrap: nowrap;
+            }
+            #buttons08 li a {
+                max-width: 32rem;
+                width: 100%;
+            }
             #buttons01 {
                 flex-direction: column;
                 flex-wrap: nowrap;
@@ -1203,6 +1254,9 @@
                 gap: 0.5625rem;
             }
             #buttons05 {
+                gap: 0.5625rem;
+            }
+            #buttons08 {
                 gap: 0.5625rem;
             }
             #buttons01 {
@@ -1249,10 +1303,13 @@
                 <ul id="buttons05" class="buttons">
                     <li><a href="https://zunkzfurzoophilevideos.carrd.co/" class="button n01">Videos Daniel / ZunkzFur</a></li>
                 </ul>
-                <ul id="buttons01" class="buttons">
+                <ul id="buttons08" class="buttons">
                     <li><a href="https://sites.google.com/view/exposedcreators/home/zunkz" class="button n01">Exposed Creators Of This Potential Pred / Zoophile</a></li>
                 </ul>
-                <div id="image01" class="image"><span class="frame"><img src="assets/images/image01.jpg?v=e3e3f1fa" alt="" /></span></div>
+                <ul id="buttons01" class="buttons">
+                    <li><a href="https://www.centralmaine.com/2018/03/23/litchfield-man-is-accused-of-sexually-assaulting-young-girl/" class="button n01">The Article Of Daniel&#039;s Father</a></li>
+                </ul>
+                <div id="image01" class="image"><span class="frame"><img src="assets/images/image01.jpg?v=6ae3eed1" alt="" /></span></div>
                 <div id="list01" class="list">
                     <ul>
                         <li>
@@ -2538,6 +2595,14 @@
                 replay: false
             });
             onvisible.add('#buttons05', {
+                style: 'fade-up',
+                speed: 1000,
+                intensity: 5,
+                threshold: 3,
+                delay: 0,
+                replay: false
+            });
+            onvisible.add('#buttons08', {
                 style: 'fade-up',
                 speed: 1000,
                 intensity: 5,
